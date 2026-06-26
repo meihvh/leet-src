@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "leetclient",
+  "version": "2.0",
+  "name": "leet client",
+  "description": "leet / 1337",
+  "authors": [
+    "aloweeed",
+    "varmicelli",
+    "kenny1337"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "im.leet.Client"
+    ]
+  },
+  "mixins": [
+    "leet.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.17.0",
+    "fabric": "*",
+    "minecraft": "1.21.8"
+  },
+  "accessWidener": "leet.accesswidener",
+  "jars": [
+    {
+      "file": "META-INF/jars/Java-WebSocket-1.6.0.jar"
+    },
+    {
+      "file": "META-INF/jars/collections-25.0.0.jar"
+    },
+    {
+      "file": "META-INF/jars/config-1.4.3.jar"
+    },
+    {
+      "file": "META-INF/jars/js-language-24.2.1.jar"
+    },
+    {
+      "file": "META-INF/jars/nativeimage-25.0.0.jar"
+    },
+    {
+      "file": "META-INF/jars/netty-handler-proxy-4.1.118.Final.jar"
+    },
+    {
+      "file": "META-INF/jars/polyglot-24.2.1.jar"
+    },
+    {
+      "file": "META-INF/jars/slf4j-simple-2.0.7.jar"
+    },
+    {
+      "file": "META-INF/jars/truffle-runtime-24.2.1.jar"
+    }
+  ]
+}
